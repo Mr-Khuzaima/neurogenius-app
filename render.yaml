@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: neurogenius-app
+    env: docker
+    repo: <your-username>/neurogenius-app
+    region: oregon
+    plan: free
+    branch: main
+    dockerContext: .
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false

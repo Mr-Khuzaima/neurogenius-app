@@ -1,0 +1,12 @@
+fastapi
+streamlit
+uvicorn
+langchain
+openai
+pydub
+speechrecognition
+python-dotenv
+requests
+PyPDF2
+chromadb
+duckduckgo-search
